@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -310,12 +308,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CalculatorBrain.m</string>
+								<string>CalculatorViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CalculatorBrain.m</string>
+										<string>CalculatorViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>307DF139156E3E37003F05E5</string>
+										<string>307DF143156E3F59003F05E5</string>
 										<key>history</key>
 										<array>
 											<string>3033AD82156C9AE500FA2453</string>
@@ -336,9 +336,9 @@
 											<string>307DF10D156E25AF003F05E5</string>
 											<string>307DF134156E3E37003F05E5</string>
 											<string>307DF135156E3E37003F05E5</string>
-											<string>307DF136156E3E37003F05E5</string>
 											<string>307DF137156E3E37003F05E5</string>
-											<string>307DF138156E3E37003F05E5</string>
+											<string>307DF142156E3F59003F05E5</string>
+											<string>307DF136156E3E37003F05E5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -396,9 +396,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>307DF13A156E3E37003F05E5</string>
+				<string>307DF144156E3F59003F05E5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>307DF13B156E3E37003F05E5</string>
+				<string>307DF145156E3F59003F05E5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -536,8 +536,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3033ACF1156C935A00FA2453</string>
 		<string>/Users/danny/cs193p/Calculator/Calculator.xcodeproj</string>
 	</array>
@@ -619,7 +617,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3033ACF1156C935A00FA2453</string>
-				<string>307DF11C156E2A82003F05E5</string>
+				<string>307DF146156E3F59003F05E5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

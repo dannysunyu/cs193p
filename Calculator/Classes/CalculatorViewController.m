@@ -31,7 +31,7 @@
 		}
 		[display setText:[digitsSoFar stringByAppendingString: digit]];
 	} else {
-		// if the digit start off with a '.' digit, add a leading '0' digit before
+		// if the digit starts off with a '.' digit, add a leading '0' digit
 		if ([@"." isEqual: digit]) {
 			digit = @"0.";
 		}

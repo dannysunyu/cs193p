@@ -33,8 +33,8 @@
 	28D7ACF70DDB3853001CB0EB /* CalculatorViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {928, 715}}";
-			sepNavSelRange = "{861, 0}";
-			sepNavVisRange = "{262, 1179}";
+			sepNavSelRange = "{1059, 0}";
+			sepNavVisRange = "{0, 1113}";
 			sepNavWindowFrame = "{{15, 73}, {1265, 705}}";
 		};
 	};
@@ -98,8 +98,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 359541013;
-			PBXWorkspaceStateSaveDate = 359541013;
+			PBXPerProjectTemplateStateSaveDate = 359546622;
+			PBXWorkspaceStateSaveDate = 359546622;
 		};
 		perUserProjectItems = {
 			3033AD82156C9AE500FA2453 /* PBXTextBookmark */ = 3033AD82156C9AE500FA2453 /* PBXTextBookmark */;
@@ -109,8 +109,8 @@
 			307DF135156E3E37003F05E5 /* PBXTextBookmark */ = 307DF135156E3E37003F05E5 /* PBXTextBookmark */;
 			307DF136156E3E37003F05E5 /* PBXTextBookmark */ = 307DF136156E3E37003F05E5 /* PBXTextBookmark */;
 			307DF137156E3E37003F05E5 /* PBXTextBookmark */ = 307DF137156E3E37003F05E5 /* PBXTextBookmark */;
-			307DF138156E3E37003F05E5 /* PBXTextBookmark */ = 307DF138156E3E37003F05E5 /* PBXTextBookmark */;
-			307DF139156E3E37003F05E5 /* PBXTextBookmark */ = 307DF139156E3E37003F05E5 /* PBXTextBookmark */;
+			307DF142156E3F59003F05E5 /* PBXTextBookmark */ = 307DF142156E3F59003F05E5 /* PBXTextBookmark */;
+			307DF143156E3F59003F05E5 /* PBXTextBookmark */ = 307DF143156E3F59003F05E5 /* PBXTextBookmark */;
 			309E7AFA156E0CA200FD0767 /* PlistBookmark */ = 309E7AFA156E0CA200FD0767 /* PlistBookmark */;
 		};
 		sourceControlManager = 3033ACF3156C935A00FA2453 /* Source Control */;
@@ -252,17 +252,7 @@
 		vrLen = 402;
 		vrLoc = 0;
 	};
-	307DF138156E3E37003F05E5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3033ADA5156CA00000FA2453 /* CalculatorBrain.m */;
-		name = "CalculatorBrain.m: 56";
-		rLen = 0;
-		rLoc = 1397;
-		rType = 0;
-		vrLen = 1039;
-		vrLoc = 467;
-	};
-	307DF139156E3E37003F05E5 /* PBXTextBookmark */ = {
+	307DF142156E3F59003F05E5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3033ADA5156CA00000FA2453 /* CalculatorBrain.m */;
 		name = "CalculatorBrain.m: 56";
@@ -271,6 +261,16 @@
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 515;
+	};
+	307DF143156E3F59003F05E5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CalculatorViewController.m */;
+		name = "CalculatorViewController.m: 41";
+		rLen = 0;
+		rLoc = 1059;
+		rType = 0;
+		vrLen = 1113;
+		vrLoc = 0;
 	};
 	309E7AFA156E0CA200FD0767 /* PlistBookmark */ = {
 		isa = PlistBookmark;
