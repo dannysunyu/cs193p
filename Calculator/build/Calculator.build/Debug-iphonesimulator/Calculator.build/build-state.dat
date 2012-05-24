@@ -1,7 +1,7 @@
 TCalculator
 v7
 r0
-t359538636.831612
+t359545214.068405
 cCheck dependencies
 cProcessInfoPlistFile /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Info.plist Calculator-Info.plist
 cCompileXIB /Users/danny/cs193p/Calculator/MainWindow.xib
@@ -46,9 +46,9 @@ t1287727235
 s7657392
 
 N/Users/danny/cs193p/Calculator/CalculatorViewController.xib
-c000000004FBDB812000000000000C2C3
-t1337833490
-s49859
+c000000004FBDFCBE0000000000010324
+t1337851070
+s66340
 
 N/Users/danny/cs193p/Calculator/Calculator_Prefix.pch
 c000000004FBC5BD600000000000000BD
@@ -83,28 +83,28 @@ i"CalculatorAppDelegate.h"
 i"CalculatorViewController.h"
 
 N/Users/danny/cs193p/Calculator/Classes/CalculatorBrain.h
-c000000004FBDBB400000000000000180
-t1337834304
-s384
+c000000004FBDFFA90000000000000192
+t1337851817
+s402
 i<Foundation/Foundation.h>
 
 N/Users/danny/cs193p/Calculator/Classes/CalculatorBrain.m
-c000000004FBDD59E00000000000003D6
-t1337841054
-s982
+c000000004FBE01DF00000000000005FB
+t1337852383
+s1531
 i"CalculatorBrain.h"
 
 N/Users/danny/cs193p/Calculator/Classes/CalculatorViewController.h
-c000000004FBDE60400000000000001CC
-t1337845252
-s460
+c000000004FBDEE2700000000000001CE
+t1337847335
+s462
 i<UIKit/UIKit.h>
 i"CalculatorBrain.h"
 
 N/Users/danny/cs193p/Calculator/Classes/CalculatorViewController.m
-c000000004FBDE84400000000000003EB
-t1337845828
-s1003
+c000000004FBDFEEF00000000000005A6
+t1337851631
+s1446
 i"CalculatorViewController.h"
 
 N/Users/danny/cs193p/Calculator/MainWindow.xib
@@ -122,36 +122,36 @@ t2
 s0
 
 N/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorAppDelegate.o
-t1337845649
-s51316
+t1337852413
+s51336
 
 N/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorBrain.o
-t1337845649
-s9924
+t1337852413
+s11844
 
 N/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorViewController.o
-t1337845836
-s40764
+t1337852413
+s41948
 
 N/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/main.o
 t1337746713
 s6288
 
 N/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app
-t1337845836
+t1337852414
 s238
 
 N/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app.dSYM
-t1337845836
+t1337852413
 s102
 
 N/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator
-t1337845836
-s18916
+t1337852413
+s23336
 
 N/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/CalculatorViewController.nib
-t1337840714
-s4521
+t1337851508
+s6101
 
 N/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Info.plist
 t1337746711
@@ -182,14 +182,14 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies359538636#359538636#0(0"0(0#1#0"8616885664#0"0#
+lSLF07#2@18"Check dependencies359545213#359545213#0(0"0(0#1#0"8614791968#0"0#
 
 CCompileC build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/Calculator.o /Users/danny/cs193p/Calculator/Classes/Calculator.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorAppDelegate.o /Users/danny/cs193p/Calculator/Classes/CalculatorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s359538449.128913
-e359538449.219592
+s359545213.546249
+e359545213.765424
 r1
 xCompileC
 xbuild/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorAppDelegate.o
@@ -198,11 +198,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/danny/cs193p/Calculator/Classes/CalculatorAppDelegate.m359538449#359538449#0(0"0(0#0#62"/Users/danny/cs193p/Calculator/Classes/CalculatorAppDelegate.m8618495968#1928"    cd /Users/danny/cs193p/Calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-generated-files.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-own-target-headers.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-project-headers.hmap -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources/i386 -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-euaifoldsgnnidgnmahimmupvezo/Calculator_Prefix.pch -c /Users/danny/cs193p/Calculator/Classes/CalculatorAppDelegate.m -o /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorAppDelegate.o0#
+lSLF07#2@70"Compile /Users/danny/cs193p/Calculator/Classes/CalculatorAppDelegate.m359545213#359545213#0(0"0(0#0#62"/Users/danny/cs193p/Calculator/Classes/CalculatorAppDelegate.m8614894368#1928"    cd /Users/danny/cs193p/Calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-generated-files.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-own-target-headers.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-project-headers.hmap -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources/i386 -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-euaifoldsgnnidgnmahimmupvezo/Calculator_Prefix.pch -c /Users/danny/cs193p/Calculator/Classes/CalculatorAppDelegate.m -o /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorAppDelegate.o0#
 
 CCompileC build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorBrain.o /Users/danny/cs193p/Calculator/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s359538449.219687
-e359538449.365090
+s359545213.683279
+e359545213.826170
 r1
 xCompileC
 xbuild/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorBrain.o
@@ -211,11 +211,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/danny/cs193p/Calculator/Classes/CalculatorBrain.m359538449#359538449#0(0"0(0#0#56"/Users/danny/cs193p/Calculator/Classes/CalculatorBrain.m8620283264#1916"    cd /Users/danny/cs193p/Calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-generated-files.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-own-target-headers.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-project-headers.hmap -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources/i386 -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-euaifoldsgnnidgnmahimmupvezo/Calculator_Prefix.pch -c /Users/danny/cs193p/Calculator/Classes/CalculatorBrain.m -o /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorBrain.o0#
+lSLF07#2@64"Compile /Users/danny/cs193p/Calculator/Classes/CalculatorBrain.m359545213#359545213#0(0"0(0#0#56"/Users/danny/cs193p/Calculator/Classes/CalculatorBrain.m8616263200#1916"    cd /Users/danny/cs193p/Calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-generated-files.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-own-target-headers.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-project-headers.hmap -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources/i386 -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-euaifoldsgnnidgnmahimmupvezo/Calculator_Prefix.pch -c /Users/danny/cs193p/Calculator/Classes/CalculatorBrain.m -o /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorBrain.o0#
 
 CCompileC build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorViewController.o /Users/danny/cs193p/Calculator/Classes/CalculatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s359538636.657181
-e359538636.783539
+s359545213.547475
+e359545213.683155
 r1
 xCompileC
 xbuild/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorViewController.o
@@ -224,7 +224,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/danny/cs193p/Calculator/Classes/CalculatorViewController.m359538636#359538636#0(0"0(0#0#65"/Users/danny/cs193p/Calculator/Classes/CalculatorViewController.m8619450784#1934"    cd /Users/danny/cs193p/Calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-generated-files.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-own-target-headers.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-project-headers.hmap -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources/i386 -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-euaifoldsgnnidgnmahimmupvezo/Calculator_Prefix.pch -c /Users/danny/cs193p/Calculator/Classes/CalculatorViewController.m -o /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorViewController.o0#
+lSLF07#2@73"Compile /Users/danny/cs193p/Calculator/Classes/CalculatorViewController.m359545213#359545213#0(0"0(0#0#65"/Users/danny/cs193p/Calculator/Classes/CalculatorViewController.m8614137024#1934"    cd /Users/danny/cs193p/Calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-generated-files.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-own-target-headers.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-project-headers.hmap -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources/i386 -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-euaifoldsgnnidgnmahimmupvezo/Calculator_Prefix.pch -c /Users/danny/cs193p/Calculator/Classes/CalculatorViewController.m -o /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/CalculatorViewController.o0#
 
 CCompileC build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/main.o /Users/danny/cs193p/Calculator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s359439513.559732
@@ -240,13 +240,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@45"Compile /Users/danny/cs193p/Calculator/main.m359439513#359439513#0(0"0(0#0#37"/Users/danny/cs193p/Calculator/main.m8612598528#1886"    cd /Users/danny/cs193p/Calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-generated-files.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-own-target-headers.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-project-headers.hmap -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources/i386 -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-euaifoldsgnnidgnmahimmupvezo/Calculator_Prefix.pch -c /Users/danny/cs193p/Calculator/main.m -o /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/danny/cs193p/Calculator/CalculatorViewController.xib
-s359533513.813640
-e359533514.934544
+s359544307.087165
+e359544308.423342
 r1
 xCompileXIB
 x/Users/danny/cs193p/Calculator/CalculatorViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@39"CompileXIB CalculatorViewController.xib359533513#359533514#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#59"/Users/danny/cs193p/Calculator/CalculatorViewController.xib32088624093986912#577"    cd /Users/danny/cs193p/Calculator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/CalculatorViewController.nib /Users/danny/cs193p/Calculator/CalculatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@39"CompileXIB CalculatorViewController.xib359544307#359544308#0(0"0(0#0#59"/Users/danny/cs193p/Calculator/CalculatorViewController.xib8613257440#577"    cd /Users/danny/cs193p/Calculator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/CalculatorViewController.nib /Users/danny/cs193p/Calculator/CalculatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/danny/cs193p/Calculator/MainWindow.xib
 s359439511.865455
@@ -257,23 +256,23 @@ x/Users/danny/cs193p/Calculator/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib359439511#359439512#0(0"0(0#0#45"/Users/danny/cs193p/Calculator/MainWindow.xib8611906688#549"    cd /Users/danny/cs193p/Calculator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/MainWindow.nib /Users/danny/cs193p/Calculator/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CGenerateDSYMFile /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app.dSYM /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator
-s359538636.810861
-e359538636.828758
+s359545213.954645
+e359545214.052429
 r1
 xGenerateDSYMFile
 x/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app.dSYM
 x/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Calculator.app.dSYM build/Debug-iphonesimulator/Calculator.app/Calculator359538636#359538636#0(0"0(0#0#84"/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator8618596480#368"    cd /Users/danny/cs193p/Calculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator -o /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app.dSYM0#
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Calculator.app.dSYM build/Debug-iphonesimulator/Calculator.app/Calculator359545213#359545214#0(0"0(0#0#84"/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator8614498688#368"    cd /Users/danny/cs193p/Calculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator -o /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app.dSYM0#
 
 CLd /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator normal i386
-s359538636.783622
-e359538636.810505
+s359545213.826259
+e359545213.954539
 r1
 xLd
 x/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator
 xnormal
 xi386
-lSLF07#2@89"Link /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator359538636#359538636#0(0"0(0#0#0"8620328800#875"    cd /Users/danny/cs193p/Calculator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -filelist /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/Calculator.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator0#
+lSLF07#2@89"Link /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator359545213#359545213#0(0"0(0#0#0"8615477312#875"    cd /Users/danny/cs193p/Calculator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -filelist /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Objects-normal/i386/Calculator.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Calculator0#
 
 CProcessInfoPlistFile /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app/Info.plist Calculator-Info.plist
 s359439511.828859
@@ -298,10 +297,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@32"Precompile Calculator_Prefix.pch359439512#359439513#0(0"0(0#0#52"/Users/danny/cs193p/Calculator/Calculator_Prefix.pch8612711136#1783"    cd /Users/danny/cs193p/Calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-generated-files.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-own-target-headers.hmap -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/Calculator-project-headers.hmap -F/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources/i386 -I/Users/danny/cs193p/Calculator/build/Calculator.build/Debug-iphonesimulator/Calculator.build/DerivedSources -c /Users/danny/cs193p/Calculator/Calculator_Prefix.pch -o /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-euaifoldsgnnidgnmahimmupvezo/Calculator_Prefix.pch.gch0#
 
 CTouch /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app
-s359538636.828842
-e359538636.831573
+s359545214.052528
+e359545214.068321
 r1
 xTouch
 x/Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app
-lSLF07#2@79"Touch /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app359538636#359538636#0(0"0(0#0#0"8616388064#265"    cd /Users/danny/cs193p/Calculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app0#
+lSLF07#2@79"Touch /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app359545214#359545214#0(0"0(0#0#0"8615455200#265"    cd /Users/danny/cs193p/Calculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danny/cs193p/Calculator/build/Debug-iphonesimulator/Calculator.app0#
 

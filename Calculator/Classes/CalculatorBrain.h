@@ -12,9 +12,10 @@
 	double operand;
 	NSString *waitingOperation;
 	double waitingOperand;
+	double memory;
 }
 
-- (void)setOperand:(double)aDouble;
-- (double)performOperation:(NSString *)operation;
+- (void)setOperand: (double)aDouble;
+- (double)performOperation: (NSString *)operation;
 
 @end

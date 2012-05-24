@@ -15,16 +15,29 @@
 	return brain;
 }
 
+- (BOOL)hasDotWithinDigits: (NSString *)digits {
+	NSRange range = [digits rangeOfString: @"."];
+	return range.location != NSNotFound;
+}
+
 - (IBAction)digitPressed: (UIButton *)sender {
 	NSString *digit = [[sender titleLabel] text];
 	
 	if (userIsInTheMiddleOfTypingANumber) {
-		[display setText:[[display text] stringByAppendingString:digit]];
+		NSString *digitsSoFar = [display text];
+		// disallow illegal floating point number
+		if ([@"." isEqual: digit] && [self hasDotWithinDigits: digitsSoFar]) {
+			digit = @"";
+		}
+		[display setText:[digitsSoFar stringByAppendingString: digit]];
 	} else {
+		// if the digit start off with a '.' digit, add a leading '0' digit before
+		if ([@"." isEqual: digit]) {
+			digit = @"0.";
+		}
 		[display setText:digit];
 		userIsInTheMiddleOfTypingANumber = YES;
 	}
-
 }
 
 

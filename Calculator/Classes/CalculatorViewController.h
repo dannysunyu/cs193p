@@ -15,8 +15,8 @@
 	BOOL userIsInTheMiddleOfTypingANumber;
 }
 
-- (IBAction)digitPressed:(UIButton *)sender;
-- (IBAction)operationPressed:(UIButton *)sender;
+- (IBAction)digitPressed: (UIButton *)sender;
+- (IBAction)operationPressed: (UIButton *)sender;
 
 @end
 
