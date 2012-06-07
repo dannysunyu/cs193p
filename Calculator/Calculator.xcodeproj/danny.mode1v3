@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,8 +274,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -308,14 +308,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CalculatorViewController.m</string>
+								<string>CalculatorAppDelegate.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,22 +321,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CalculatorViewController.m</string>
+										<string>CalculatorAppDelegate.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>307DF143156E3F59003F05E5</string>
+										<string>3092B9771580E218006AFC28</string>
 										<key>history</key>
 										<array>
 											<string>3033AD82156C9AE500FA2453</string>
 											<string>3033ADB6156CD29800FA2453</string>
 											<string>309E7AFA156E0CA200FD0767</string>
 											<string>307DF10D156E25AF003F05E5</string>
-											<string>307DF134156E3E37003F05E5</string>
 											<string>307DF135156E3E37003F05E5</string>
 											<string>307DF137156E3E37003F05E5</string>
 											<string>307DF142156E3F59003F05E5</string>
-											<string>307DF136156E3E37003F05E5</string>
+											<string>3092B94D1580E175006AFC28</string>
+											<string>3092B94E1580E175006AFC28</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -396,9 +394,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>307DF144156E3F59003F05E5</string>
+				<string>3092B9781580E218006AFC28</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>307DF145156E3F59003F05E5</string>
+				<string>3092B9791580E218006AFC28</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -536,6 +534,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3033ACF1156C935A00FA2453</string>
 		<string>/Users/danny/cs193p/Calculator/Calculator.xcodeproj</string>
 	</array>
@@ -617,7 +616,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3033ACF1156C935A00FA2453</string>
-				<string>307DF146156E3F59003F05E5</string>
+				<string>3092B97A1580E218006AFC28</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -661,8 +660,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 201}}</string>
-											<string>{{316, 0}, {378, 201}}</string>
+											<string>{{0, 0}, {316, 202}}</string>
+											<string>{{316, 0}, {378, 202}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -677,8 +676,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 201}}</string>
-											<string>{{0, 201}, {694, 180}}</string>
+											<string>{{0, 0}, {694, 202}}</string>
+											<string>{{0, 202}, {694, 179}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -711,7 +710,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 201}}</string>
+									<string>{{316, 0}, {378, 202}}</string>
 									<key>RubberWindowFrame</key>
 									<string>267 296 694 422 0 0 1280 778 </string>
 								</dict>
@@ -739,13 +738,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>307DF11D156E2A82003F05E5</string>
+				<string>3092B97B1580E218006AFC28</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>307DF11E156E2A82003F05E5</string>
-				<string>307DF11F156E2A82003F05E5</string>
-				<string>307DF120156E2A82003F05E5</string>
-				<string>307DF121156E2A82003F05E5</string>
-				<string>307DF122156E2A82003F05E5</string>
+				<string>3092B97C1580E218006AFC28</string>
+				<string>3092B97D1580E218006AFC28</string>
+				<string>3092B97E1580E218006AFC28</string>
+				<string>3092B97F1580E218006AFC28</string>
+				<string>3092B9801580E218006AFC28</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
