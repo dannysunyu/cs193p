@@ -68,8 +68,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 360769982;
-			PBXWorkspaceStateSaveDate = 360769982;
+			PBXPerProjectTemplateStateSaveDate = 360773234;
+			PBXWorkspaceStateSaveDate = 360773234;
 		};
 		perUserProjectItems = {
 			3092B9351580E15A006AFC28 /* PBXTextBookmark */ = 3092B9351580E15A006AFC28 /* PBXTextBookmark */;
@@ -78,11 +78,11 @@
 			3092B9A51580E284006AFC28 /* PBXTextBookmark */ = 3092B9A51580E284006AFC28 /* PBXTextBookmark */;
 			3092B9A61580E284006AFC28 /* PBXTextBookmark */ = 3092B9A61580E284006AFC28 /* PBXTextBookmark */;
 			3092B9A71580E284006AFC28 /* PBXTextBookmark */ = 3092B9A71580E284006AFC28 /* PBXTextBookmark */;
-			3092B9DC1580E8D4006AFC28 /* PlistBookmark */ = 3092B9DC1580E8D4006AFC28 /* PlistBookmark */;
 			30CF8B891580EB8E000198C4 /* PBXTextBookmark */ = 30CF8B891580EB8E000198C4 /* PBXTextBookmark */;
-			30CF8B8A1580EB8E000198C4 /* PBXTextBookmark */ = 30CF8B8A1580EB8E000198C4 /* PBXTextBookmark */;
-			30CF8B8B1580EB8E000198C4 /* PBXTextBookmark */ = 30CF8B8B1580EB8E000198C4 /* PBXTextBookmark */;
 			30CF8B8E1580EB8E000198C4 /* PlistBookmark */ = 30CF8B8E1580EB8E000198C4 /* PlistBookmark */;
+			30CF8BD51580F678000198C4 /* PBXTextBookmark */ = 30CF8BD51580F678000198C4 /* PBXTextBookmark */;
+			30CF8BD61580F678000198C4 /* PBXTextBookmark */ = 30CF8BD61580F678000198C4 /* PBXTextBookmark */;
+			30CF8BD91580F678000198C4 /* PlistBookmark */ = 30CF8BD91580F678000198C4 /* PlistBookmark */;
 		};
 		sourceControlManager = 3092B9251580E067006AFC28 /* Source Control */;
 		userBuildSettings = {
@@ -197,17 +197,6 @@
 		vrLen = 1122;
 		vrLoc = 0;
 	};
-	3092B9DC1580E8D4006AFC28 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Collector-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/danny/cs193p/Demos/Collector/Collector-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
 	30CF8B891580EB8E000198C4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DA83B71F116CEFC4006C2E27 /* Collector.m */;
@@ -218,27 +207,38 @@
 		vrLen = 1078;
 		vrLoc = 0;
 	};
-	30CF8B8A1580EB8E000198C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DA83B71E116CEFC4006C2E27 /* Collector.h */;
-		name = "Collector.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1014;
-		vrLoc = 0;
-	};
-	30CF8B8B1580EB8E000198C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DA83B71E116CEFC4006C2E27 /* Collector.h */;
-		name = "Collector.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1014;
-		vrLoc = 0;
-	};
 	30CF8B8E1580EB8E000198C4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Collector-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/danny/cs193p/Demos/Collector/Collector-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	30CF8BD51580F678000198C4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA83B71E116CEFC4006C2E27 /* Collector.h */;
+		name = "Collector.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	30CF8BD61580F678000198C4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA83B71E116CEFC4006C2E27 /* Collector.h */;
+		name = "Collector.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	30CF8BD91580F678000198C4 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Collector-Info.plist */;
 		fallbackIsa = PBXBookmark;
