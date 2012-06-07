@@ -2,15 +2,21 @@
 //  FoundationCalculatorViewController.h
 //  FoundationCalculator
 //
-//  Created by 孙 昱 on 12-6-4.
-//  Copyright 2012 联想（上海）有限公司. All rights reserved.
+//  Created by Danny Sun on 12-6-4.
+//  Copyright 2012 PPLive Corporation. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface FoundationCalculatorViewController : UIViewController {
-
+@interface FoundationCalculatorViewController : UIViewController 
+{
+	IBOutlet UILabel *display;
+	CalculatorBrain *brain;
+	BOOL userIsInTheMiddleOfTypingANumber;
 }
+
+- (IBAction)digitPressed: (UIButton *)sender;
+- (IBAction)operationPressed: (UIButton *)sender;
 
 @end
 
