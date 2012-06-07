@@ -1,7 +1,7 @@
 TCollector
 v7
 r0
-t360768043.484332
+t360769638.797045
 cCheck dependencies
 cProcessInfoPlistFile /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Info.plist Collector-Info.plist
 cCompileXIB /Users/danny/cs193p/Demos/Collector/MainWindow.xib
@@ -10,7 +10,7 @@ cProcessPCH /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode
 cCompileC build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/main.o /Users/danny/cs193p/Demos/Collector/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/CollectorAppDelegate.o /Users/danny/cs193p/Demos/Collector/Classes/CollectorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/CollectorViewController.o /Users/danny/cs193p/Demos/Collector/Classes/CollectorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.o /Users/danny/cs193p/Demos/Collector/Classes/../Collector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.o /Users/danny/cs193p/Demos/Collector/Classes/Collector.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector normal i386
 cGenerateDSYMFile /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app.dSYM /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector
 cTouch /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app
@@ -52,6 +52,17 @@ s1014
 i<Foundation/Foundation.h>
 
 N/Users/danny/cs193p/Demos/Collector/Classes/../Collector.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/danny/cs193p/Demos/Collector/Classes/Collector.h
+c000000004CA4FE0B00000000000003F6
+t1285881355
+s1014
+i<Foundation/Foundation.h>
+
+N/Users/danny/cs193p/Demos/Collector/Classes/Collector.m
 c000000004CA5003B0000000000000B02
 t1285881915
 s2818
@@ -112,8 +123,8 @@ t1339075240
 s532
 
 N/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.o
-t1339075243
-s18148
+t1339076838
+s18140
 
 N/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/CollectorAppDelegate.o
 t1339075242
@@ -128,16 +139,16 @@ t1339075242
 s6296
 
 N/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app
-t1339075243
+t1339076838
 s238
 
 N/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app.dSYM
-t1339075243
+t1339076838
 s102
 
 N/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector
-t1339075243
-s25736
+t1339076838
+s25732
 
 N/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/CollectorViewController.nib
 t1339075241
@@ -172,7 +183,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies360768040#360768040#0(0"0(0#1#0"8601981120#0"0#
+lSLF07#2@18"Check dependencies360769638#360769638#0(0"0(0#1#0"8614137024#0"0#
 
 CCompileC build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.o /Users/danny/cs193p/Demos/Collector/Classes/../Collector.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s360768042.974111
@@ -186,6 +197,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@66"Compile /Users/danny/cs193p/Demos/Collector/Classes/../Collector.m360768042#360768043#0(0"0(0#0#58"/Users/danny/cs193p/Demos/Collector/Classes/../Collector.m8607408736#1942"    cd /Users/danny/cs193p/Demos/Collector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-generated-files.hmap -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-own-target-headers.hmap -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-all-target-headers.hmap -iquote /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-project-headers.hmap -F/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator -I/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/DerivedSources/i386 -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Collector_Prefix-aswtnnzcskwyohgkknhjyanrlngr/Collector_Prefix.pch -c /Users/danny/cs193p/Demos/Collector/Classes/../Collector.m -o /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.o0#
+
+CCompileC build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.o /Users/danny/cs193p/Demos/Collector/Classes/Collector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360769638.352343
+e360769638.555875
+r1
+xCompileC
+xbuild/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.o
+x/Users/danny/cs193p/Demos/Collector/Classes/Collector.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/danny/cs193p/Demos/Collector/Classes/Collector.m360769638#360769638#0(0"0(0#0#55"/Users/danny/cs193p/Demos/Collector/Classes/Collector.m8610975968#1939"    cd /Users/danny/cs193p/Demos/Collector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-generated-files.hmap -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-own-target-headers.hmap -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-all-target-headers.hmap -iquote /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-project-headers.hmap -F/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator -I/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/DerivedSources/i386 -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Collector_Prefix-aswtnnzcskwyohgkknhjyanrlngr/Collector_Prefix.pch -c /Users/danny/cs193p/Demos/Collector/Classes/Collector.m -o /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.o0#
 
 CCompileC build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/CollectorAppDelegate.o /Users/danny/cs193p/Demos/Collector/Classes/CollectorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s360768042.790443
@@ -244,23 +268,23 @@ x/Users/danny/cs193p/Demos/Collector/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib360768041#360768041#0(0"0(0#0#50"/Users/danny/cs193p/Demos/Collector/MainWindow.xib8608455808#563"    cd /Users/danny/cs193p/Demos/Collector    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/MainWindow.nib /Users/danny/cs193p/Demos/Collector/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CGenerateDSYMFile /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app.dSYM /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector
-s360768043.389269
-e360768043.453979
+s360769638.745361
+e360769638.794360
 r1
 xGenerateDSYMFile
 x/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app.dSYM
 x/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Collector.app.dSYM build/Debug-iphonesimulator/Collector.app/Collector360768043#360768043#0(0"0(0#0#87"/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector8610317984#380"    cd /Users/danny/cs193p/Demos/Collector    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector -o /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Collector.app.dSYM build/Debug-iphonesimulator/Collector.app/Collector360769638#360769638#0(0"0(0#0#87"/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector8614488544#380"    cd /Users/danny/cs193p/Demos/Collector    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector -o /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app.dSYM0#
 
 CLd /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector normal i386
-s360768043.061611
-e360768043.389166
+s360769638.555967
+e360769638.745269
 r1
 xLd
 x/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector
 xnormal
 xi386
-lSLF07#2@92"Link /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector360768043#360768043#0(0"0(0#0#0"8606930752#895"    cd /Users/danny/cs193p/Demos/Collector    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator -F/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator -filelist /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector0#
+lSLF07#2@92"Link /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector360769638#360769638#0(0"0(0#0#0"8609926080#895"    cd /Users/danny/cs193p/Demos/Collector    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator -F/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator -filelist /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Objects-normal/i386/Collector.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Collector0#
 
 CProcessInfoPlistFile /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app/Info.plist Collector-Info.plist
 s360768040.742654
@@ -285,10 +309,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile Collector_Prefix.pch360768041#360768042#0(0"0(0#0#56"/Users/danny/cs193p/Demos/Collector/Collector_Prefix.pch8601876384#1814"    cd /Users/danny/cs193p/Demos/Collector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-generated-files.hmap -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-own-target-headers.hmap -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-all-target-headers.hmap -iquote /Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/Collector-project-headers.hmap -F/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator -I/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/DerivedSources/i386 -I/Users/danny/cs193p/Demos/Collector/build/Collector.build/Debug-iphonesimulator/Collector.build/DerivedSources -c /Users/danny/cs193p/Demos/Collector/Collector_Prefix.pch -o /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Collector_Prefix-aswtnnzcskwyohgkknhjyanrlngr/Collector_Prefix.pch.gch0#
 
 CTouch /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app
-s360768043.454075
-e360768043.484272
+s360769638.794450
+e360769638.797003
 r1
 xTouch
 x/Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app
-lSLF07#2@83"Touch /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app360768043#360768043#0(0"0(0#0#0"8608718144#274"    cd /Users/danny/cs193p/Demos/Collector    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app0#
+lSLF07#2@83"Touch /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app360769638#360769638#0(0"0(0#0#0"8614247488#274"    cd /Users/danny/cs193p/Demos/Collector    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danny/cs193p/Demos/Collector/build/Debug-iphonesimulator/Collector.app0#
 
