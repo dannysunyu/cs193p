@@ -1,0 +1,95 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FoundationCalculatorAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {642, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 533}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FoundationCalculator */ = {
+		activeExec = 0;
+		executables = (
+			305D559C157CF2B600345DA4 /* FoundationCalculator */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 305D559C157CF2B600345DA4 /* FoundationCalculator */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FoundationCalculator */;
+		codeSenseManager = 305D55AC157CF2BA00345DA4 /* Code sense */;
+		executables = (
+			305D559C157CF2B600345DA4 /* FoundationCalculator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 360768235;
+			PBXWorkspaceStateSaveDate = 360768235;
+		};
+		sourceControlManager = 305D55AB157CF2BA00345DA4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	305D559C157CF2B600345DA4 /* FoundationCalculator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FoundationCalculator;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	305D55AB157CF2BA00345DA4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	305D55AC157CF2BA00345DA4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

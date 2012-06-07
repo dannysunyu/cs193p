@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* CollectorAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {961, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 482}";
+		};
+	};
+	1D3623250D0F684500981E51 /* CollectorAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 577}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 676}";
+			sepNavWindowFrame = "{{15, 73}, {1265, 705}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Collector */ = {
+		activeExec = 0;
+		executables = (
+			3092B9171580E058006AFC28 /* Collector */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* CollectorViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {961, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1122}";
+			sepNavWindowFrame = "{{15, 73}, {1265, 705}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* CollectorViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 845}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1570}";
+			sepNavWindowFrame = "{{15, 73}, {1265, 705}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3092B9171580E058006AFC28 /* Collector */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Collector */;
+		codeSenseManager = 3092B9261580E067006AFC28 /* Code sense */;
+		executables = (
+			3092B9171580E058006AFC28 /* Collector */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					783,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 360768027;
+			PBXWorkspaceStateSaveDate = 360768027;
+		};
+		perUserProjectItems = {
+			3092B9351580E15A006AFC28 /* PBXTextBookmark */ = 3092B9351580E15A006AFC28 /* PBXTextBookmark */;
+			3092B9371580E15A006AFC28 /* PBXTextBookmark */ = 3092B9371580E15A006AFC28 /* PBXTextBookmark */;
+			3092B9391580E15A006AFC28 /* PBXTextBookmark */ = 3092B9391580E15A006AFC28 /* PBXTextBookmark */;
+			3092B93A1580E15A006AFC28 /* PBXTextBookmark */ = 3092B93A1580E15A006AFC28 /* PBXTextBookmark */;
+			3092B9621580E1F2006AFC28 /* PlistBookmark */ = 3092B9621580E1F2006AFC28 /* PlistBookmark */;
+			3092B9A51580E284006AFC28 /* PBXTextBookmark */ = 3092B9A51580E284006AFC28 /* PBXTextBookmark */;
+			3092B9A61580E284006AFC28 /* PBXTextBookmark */ = 3092B9A61580E284006AFC28 /* PBXTextBookmark */;
+			3092B9A71580E284006AFC28 /* PBXTextBookmark */ = 3092B9A71580E284006AFC28 /* PBXTextBookmark */;
+			3092B9AC1580E2AD006AFC28 /* PBXTextBookmark */ = 3092B9AC1580E2AD006AFC28 /* PBXTextBookmark */;
+			3092B9AD1580E2AD006AFC28 /* PBXTextBookmark */ = 3092B9AD1580E2AD006AFC28 /* PBXTextBookmark */;
+			3092B9AE1580E2AD006AFC28 /* PlistBookmark */ = 3092B9AE1580E2AD006AFC28 /* PlistBookmark */;
+		};
+		sourceControlManager = 3092B9251580E067006AFC28 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {961, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 354}";
+		};
+	};
+	3092B9171580E058006AFC28 /* Collector */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Collector;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3092B9251580E067006AFC28 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3092B9261580E067006AFC28 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3092B9351580E15A006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CollectorAppDelegate.m */;
+		name = "CollectorAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 0;
+	};
+	3092B9371580E15A006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CollectorViewController.m */;
+		name = "CollectorViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1567;
+		vrLoc = 0;
+	};
+	3092B9391580E15A006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA83B71E116CEFC4006C2E27 /* Collector.h */;
+		name = "Collector.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	3092B93A1580E15A006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	3092B9621580E1F2006AFC28 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Collector-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/danny/cs193p/Demos/Collector/Collector-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	3092B9A51580E284006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Collector_Prefix.pch */;
+		name = "Collector_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 187;
+		vrLoc = 0;
+	};
+	3092B9A61580E284006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CollectorAppDelegate.h */;
+		name = "CollectorAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 482;
+		vrLoc = 0;
+	};
+	3092B9A71580E284006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CollectorViewController.h */;
+		name = "CollectorViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1122;
+		vrLoc = 0;
+	};
+	3092B9AC1580E2AD006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA83B71F116CEFC4006C2E27 /* Collector.m */;
+		name = "Collector.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 0;
+	};
+	3092B9AD1580E2AD006AFC28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA83B71E116CEFC4006C2E27 /* Collector.h */;
+		name = "Collector.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	3092B9AE1580E2AD006AFC28 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Collector-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/danny/cs193p/Demos/Collector/Collector-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	32CA4F630368D1EE00C91783 /* Collector_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {961, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 187}";
+			sepNavWindowFrame = "{{15, 73}, {1265, 705}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Collector-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 73}, {1265, 705}}";
+		};
+	};
+	DA83B71E116CEFC4006C2E27 /* Collector.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {961, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1014}";
+			sepNavWindowFrame = "{{15, 73}, {1265, 705}}";
+		};
+	};
+	DA83B71F116CEFC4006C2E27 /* Collector.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {961, 1495}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1078}";
+		};
+	};
+}
