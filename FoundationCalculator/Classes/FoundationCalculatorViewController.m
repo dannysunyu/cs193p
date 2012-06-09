@@ -16,7 +16,7 @@
 
 @implementation FoundationCalculatorViewController
 
-- (CalculatorBrain) *brain;
+- (CalculatorBrain *) brain;
 {
 	if (!brain) brain = [[CalculatorBrain alloc] init];
 	return brain;
@@ -64,7 +64,7 @@
 	}
 	NSString *operation = sender.titleLabel.text;
 	double result = [self.brain performOperation: operation];
-	display.text = [NSString stringWithFormat: @"%g", result]];
+	display.text = [NSString stringWithFormat: @"%g", result];
 }
 
 

@@ -8,8 +8,16 @@
 
 #import "CalculatorBrain.h"
 
+@interface CalculatorBrain()
+
+@property (retain) NSString *waitingOperation; 
+
+@end
+
 
 @implementation CalculatorBrain
+
+@synthesize waitingOperation;
 
 - (void)setOperand: (double)aDouble 
 {
@@ -18,22 +26,14 @@
 
 - (void)performWaitingOperation 
 {
-	if ([@"+" isEqual: waitingOperation]) 
-	{
+	if ([@"+" isEqual: waitingOperation]) {
 		operand = waitingOperand + operand;
-	} 
-	else if ([@"*" isEqual: waitingOperation]) 
-	{
+	} else if ([@"*" isEqual: waitingOperation]) {
 		operand	= waitingOperand * operand;
-	} 
-	else if ([@"-" isEqual: waitingOperation]) 
-	{
+	} else if ([@"-" isEqual: waitingOperation]) {
 		operand = waitingOperand - operand;
-	} 
-	else if ([@"/" isEqual: waitingOperation]) 
-	{
-		if (operand) 
-		{
+	} else if ([@"/" isEqual: waitingOperation]) {
+		if (operand) {
 			operand = waitingOperand / operand;
 		}
 	}
@@ -73,5 +73,12 @@
 	
 	return operand;
 }
+
+- (void)dealloc 
+{
+	[waitingOperation release];
+    [super dealloc];
+}
+
 
 @end

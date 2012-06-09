@@ -1,0 +1,285 @@
+TFoundationCalculator
+v7
+r0
+t360935031.909170
+cCheck dependencies
+cProcessInfoPlistFile /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/Info.plist FoundationCalculator-Info.plist
+cCompileXIB /Users/danny/cs193p/FoundationCalculator/MainWindow.xib
+cCompileXIB /Users/danny/cs193p/FoundationCalculator/FoundationCalculatorViewController.xib
+cProcessPCH /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch.gch FoundationCalculator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/main.o /Users/danny/cs193p/FoundationCalculator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorAppDelegate.o /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorViewController.o /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/CalculatorBrain.o /Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.h
+c000000004FD0BBF10000000000000192
+t1339079665
+s402
+i<Cocoa/Cocoa.h>
+
+N/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m
+c000000004FD217790000000000000608
+t1339168633
+s1544
+i"CalculatorBrain.h"
+
+N/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.h
+c000000004FD0B577000000000000022A
+t1339078007
+s554
+i<UIKit/UIKit.h>
+
+N/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m
+c000000004FD0B5110000000000000AD3
+t1339077905
+s2771
+i"FoundationCalculatorAppDelegate.h"
+i"FoundationCalculatorViewController.h"
+
+N/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h
+c000000004FD0BCED00000000000001D0
+t1339079917
+s464
+i<UIKit/UIKit.h>
+
+N/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m
+c000000004FD0BCE40000000000000B11
+t1339079908
+s2833
+i"FoundationCalculatorViewController.h"
+
+N/Users/danny/cs193p/FoundationCalculator/FoundationCalculatorViewController.xib
+c000000004FD336DC0000000000011EB7
+t1339242204
+s73399
+
+N/Users/danny/cs193p/FoundationCalculator/FoundationCalculator_Prefix.pch
+c000000004FCCBB3600000000000000D1
+t1338817334
+s209
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danny/cs193p/FoundationCalculator/MainWindow.xib
+c000000004FCCBB360000000000004EC5
+t1338817334
+s20165
+
+N/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app
+t2
+s0
+
+N/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app.dSYM
+t2
+s0
+
+N/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/FoundationCalculator
+t2
+s0
+
+N/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/FoundationCalculatorViewController.nib
+t1339242229
+s6765
+
+N/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/Info.plist
+t1339242229
+s649
+
+N/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/MainWindow.nib
+t1339242229
+s1149
+
+N/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/PkgInfo
+t1339242229
+s8
+
+N/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/CalculatorBrain.o
+t2
+s0
+
+N/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculator.LinkFileList
+c000000004FD336F5000000000000029C
+t1339242229
+s668
+
+N/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorAppDelegate.o
+t2
+s0
+
+N/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorViewController.o
+t2
+s0
+
+N/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/main.o
+t1339242231
+s6308
+
+N/Users/danny/cs193p/FoundationCalculator/main.m
+c000000004FCCBB36000000000000017D
+t1338817334
+s381
+i<UIKit/UIKit.h>
+
+N/var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch.gch
+t1339242231
+s15453392
+
+NFoundationCalculator-Info.plist
+c000000004FCCBB36000000000000038D
+t1338817334
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies360935028#360935029#0(0"0(0#1#0"7020114989044286464#0"0#
+
+CCompileC build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/CalculatorBrain.o /Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360935031.784034
+e360935031.909090
+r0
+xCompileC
+xbuild/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/CalculatorBrain.o
+x/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m:9:
+o/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.h:9:24: error: Cocoa/Cocoa.h: No such file or directory
+lSLF07#2@74"Compile /Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m360935031#360935031#0(213"In file included from /Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m:9:/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.h:9:24: error: Cocoa/Cocoa.h: No such file or directory1(4@40"Cocoa/Cocoa.h: No such file or directory360935031#92#121#2(7@88"In file included from /Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m360935031#18446744073709551615#0#0(6@66"/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m360861433#9#0#9#0#0"0(13@110"Cocoa/Cocoa.h: No such file or directory in /Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.h360935031#18446744073709551615#0#0(6@66"/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.h360772465#9#0#9#0#0"0(6@66"/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.h360772465#9#0#9#0#28"*: No such file or directory0(0#0#66"/Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m8603823552#2226"    cd /Users/danny/cs193p/FoundationCalculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-generated-files.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-own-target-headers.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-all-target-headers.hmap -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-project-headers.hmap -F/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources/i386 -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch -c /Users/danny/cs193p/FoundationCalculator/Classes/CalculatorBrain.m -o /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/CalculatorBrain.o1#
+
+CCompileC build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorAppDelegate.o /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360935031.616575
+e360935031.780449
+r0
+xCompileC
+xbuild/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorAppDelegate.o
+x/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m:10:
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h:14: error: expected specifier-qualifier-list before 'CalculatorBrain'
+lSLF07#2@90"Compile /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m360935031#360935031#0(265"In file included from /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m:10:/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h:14: error: expected specifier-qualifier-list before 'CalculatorBrain'1(4@58"Expected specifier-qualifier-list before 'CalculatorBrain'360935031#109#156#2(7@104"In file included from /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m360935031#18446744073709551615#0#0(6@82"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m360770705#10#0#10#0#0"0(13@147"Expected specifier-qualifier-list before 'CalculatorBrain' in /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h360935031#18446744073709551615#0#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h360772717#14#0#14#0#0"0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h360772717#14#0#14#0#19"expected * before *0(0#0#82"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m8604473536#2258"    cd /Users/danny/cs193p/FoundationCalculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-generated-files.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-own-target-headers.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-all-target-headers.hmap -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-project-headers.hmap -F/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources/i386 -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch -c /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorAppDelegate.m -o /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorAppDelegate.o1#
+
+CCompileC build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorViewController.o /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360935031.780575
+e360935031.841623
+r0
+xCompileC
+xbuild/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorViewController.o
+x/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:9:
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h:14: error: expected specifier-qualifier-list before 'CalculatorBrain'
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:13: error: expected specifier-qualifier-list before 'CalculatorBrain'
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:19: error: expected ')' before 'CalculatorBrain'
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:19: error: expected ':' before '*' token
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:20: error: expected identifier or '(' before '{' token
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m: In function '-[FoundationCalculatorViewController operationPressed:]':
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:62: error: request for member 'brain' in something not a structure or union
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:66: error: request for member 'brain' in something not a structure or union
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:67: error: expected ';' before ']' token
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:67: error: expected statement before ']' token
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m: In function '-[FoundationCalculatorViewController dealloc]':
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:122: error: 'brain' undeclared (first use in this function)
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:122: error: (Each undeclared identifier is reported only once
+o/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:122: error: for each function it appears in.)
+lSLF07#2@93"Compile /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360935031#360935031#0(2142"In file included from /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:9:/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h:14: error: expected specifier-qualifier-list before 'CalculatorBrain'/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:13: error: expected specifier-qualifier-list before 'CalculatorBrain'/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:19: error: expected ')' before 'CalculatorBrain'/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:19: error: expected ':' before '*' token/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:20: error: expected identifier or '(' before '{' token/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m: In function '-[FoundationCalculatorViewController operationPressed:]':/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:62: error: request for member 'brain' in something not a structure or union/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:66: error: request for member 'brain' in something not a structure or union/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:67: error: expected ';' before ']' token/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:67: error: expected statement before ']' token/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m: In function '-[FoundationCalculatorViewController dealloc]':/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:122: error: 'brain' undeclared (first use in this function)/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:122: error: (Each undeclared identifier is reported only once/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m:122: error: for each function it appears in.)10(4@58"Expected specifier-qualifier-list before 'CalculatorBrain'360935031#111#156#2(7@107"In file included from /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360935031#18446744073709551615#0#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#9#0#9#0#0"0(13@147"Expected specifier-qualifier-list before 'CalculatorBrain' in /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h360935031#18446744073709551615#0#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h360772717#14#0#14#0#0"0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.h360772717#14#0#14#0#19"expected * before *0(4@58"Expected specifier-qualifier-list before 'CalculatorBrain'360935031#267#156#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#13#0#13#0#19"expected * before *0(4@37"Expected ')' before 'CalculatorBrain'360935031#423#135#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#19#0#19#0#19"expected * before *0(4@29"Expected ':' before '*' token360935031#558#127#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#19#0#19#0#19"expected * before *0(4@43"Expected identifier or '(' before '{' token360935031#685#141#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#20#0#20#0#19"expected * before *0(4@64"Request for member 'brain' in something not a structure or union360935031#984#162#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#62#0#62#0#0"0(4@64"Request for member 'brain' in something not a structure or union360935031#1146#162#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#66#0#66#0#0"0(4@29"Expected ';' before ']' token360935031#1308#127#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#67#0#67#0#19"expected * before *0(4@35"Expected statement before ']' token360935031#1435#133#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#67#0#67#0#19"expected * before *0(4@47"'brain' undeclared (first use in this function)360935031#1716#146#0(6@85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m360772708#122#0#122#0#43"'*' undeclared (first use in this function)0(0#0#85"/Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m8604201664#2264"    cd /Users/danny/cs193p/FoundationCalculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-generated-files.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-own-target-headers.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-all-target-headers.hmap -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-project-headers.hmap -F/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources/i386 -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch -c /Users/danny/cs193p/FoundationCalculator/Classes/FoundationCalculatorViewController.m -o /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/FoundationCalculatorViewController.o1#
+
+CCompileC build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/main.o /Users/danny/cs193p/FoundationCalculator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360935031.615511
+e360935031.783875
+r1
+xCompileC
+xbuild/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/main.o
+x/Users/danny/cs193p/FoundationCalculator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/danny/cs193p/FoundationCalculator/main.m360935031#360935031#0(0"0(0#0#47"/Users/danny/cs193p/FoundationCalculator/main.m8605718208#2196"    cd /Users/danny/cs193p/FoundationCalculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-generated-files.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-own-target-headers.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-all-target-headers.hmap -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-project-headers.hmap -F/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources/i386 -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources -include /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch -c /Users/danny/cs193p/FoundationCalculator/main.m -o /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/danny/cs193p/FoundationCalculator/FoundationCalculatorViewController.xib
+s360935029.278833
+e360935030.133389
+r1
+xCompileXIB
+x/Users/danny/cs193p/FoundationCalculator/FoundationCalculatorViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@49"CompileXIB FoundationCalculatorViewController.xib360935029#360935030#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#79"/Users/danny/cs193p/FoundationCalculator/FoundationCalculatorViewController.xib8603336448#637"    cd /Users/danny/cs193p/FoundationCalculator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/FoundationCalculatorViewController.nib /Users/danny/cs193p/FoundationCalculator/FoundationCalculatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/danny/cs193p/FoundationCalculator/MainWindow.xib
+s360935029.266632
+e360935029.827485
+r1
+xCompileXIB
+x/Users/danny/cs193p/FoundationCalculator/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib360935029#360935029#0(0"0(0#0#55"/Users/danny/cs193p/FoundationCalculator/MainWindow.xib8603672704#589"    cd /Users/danny/cs193p/FoundationCalculator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/MainWindow.nib /Users/danny/cs193p/FoundationCalculator/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app.dSYM /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/FoundationCalculator
+r0
+
+CLd /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/FoundationCalculator normal i386
+r0
+
+CProcessInfoPlistFile /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/Info.plist FoundationCalculator-Info.plist
+s360935029.194931
+e360935029.266528
+r1
+xProcessInfoPlistFile
+x/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/Info.plist
+xFoundationCalculator-Info.plist
+lSLF07#2@39"Process FoundationCalculator-Info.plist360935029#360935029#0(0"0(0#0#72"/Users/danny/cs193p/FoundationCalculator/FoundationCalculator-Info.plist32651513917341812#524"    cd /Users/danny/cs193p/FoundationCalculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FoundationCalculator-Info.plist -genpkginfo /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app/Info.plist0#
+
+CProcessPCH /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch.gch FoundationCalculator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s360935030.133537
+e360935031.615347
+r1
+xProcessPCH
+x/var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch.gch
+xFoundationCalculator_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Precompile FoundationCalculator_Prefix.pch360935030#360935031#0(0"0(0#0#72"/Users/danny/cs193p/FoundationCalculator/FoundationCalculator_Prefix.pch8602941312#2073"    cd /Users/danny/cs193p/FoundationCalculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-generated-files.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-own-target-headers.hmap -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-all-target-headers.hmap -iquote /Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/FoundationCalculator-project-headers.hmap -F/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator -I/Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/include -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources/i386 -I/Users/danny/cs193p/FoundationCalculator/build/FoundationCalculator.build/Debug-iphonesimulator/FoundationCalculator.build/DerivedSources -c /Users/danny/cs193p/FoundationCalculator/FoundationCalculator_Prefix.pch -o /var/folders/K2/K20KuX7oGS8u19qUz+Ur8k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FoundationCalculator_Prefix-gpfctbgasrrhcieyzpjiwduajgwq/FoundationCalculator_Prefix.pch.gch0#
+
+CTouch /Users/danny/cs193p/FoundationCalculator/build/Debug-iphonesimulator/FoundationCalculator.app
+r0
+

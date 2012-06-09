@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CalculatorBrain.h"
+	
 @interface FoundationCalculatorViewController : UIViewController 
 {
 	IBOutlet UILabel *display;
